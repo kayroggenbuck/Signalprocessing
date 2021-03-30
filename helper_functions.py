@@ -30,7 +30,7 @@ def load_array_from_memory(filename):
 	
 def get_timepoints(epoch_start, epoch_end, number_of_datapoints):
 	"""
-	
+	calculates equidistant timepoints in the time range
 	"""
 	time_range = numpy.abs(epoch_end) + numpy.abs(epoch_start)
 	steps = time_range / number_of_datapoints
